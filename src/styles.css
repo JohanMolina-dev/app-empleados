@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~ngx-toastr/toastr';
+body {
+background:linear-gradient(rgba(239, 240, 235, 0.1), rgba(232, 233, 230, 0.1)), url('assets/madera_fondo.jpg');
+background-repeat: no-repeat ;
+background-position: center;
+background-size: cover;
+height:100vh;
+
+}
+
+.boton{
+    display:block;
+    align-self: auto;
+    position:absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-100%, -50%) 
+    
+
+}
